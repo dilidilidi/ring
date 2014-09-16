@@ -1,0 +1,28 @@
+{
+  "name": "ring",
+  "title": "Awesome jQuery plugin ring",
+  "description": "This is my first jquery plugin ,i wish you like it!",
+  "version": "1.0.0",
+  "homepage": "",
+  "author": {
+    "name": "孙斌",
+    "url": "https://github.com/dilidilidi"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ]
+}
