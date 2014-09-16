@@ -3,16 +3,16 @@
   "title": "Awesome jQuery plugin ring",
   "description": "This is my first jquery plugin ,i wish you like it!",
   "version": "1.0.0",
-  "homepage": "",
+  "homepage": "https://github.com/dilidilidi/ring",
   "author": {
     "name": "孙斌",
     "url": "https://github.com/dilidilidi"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/dilidilidi/ring"
   },
-  "bugs": "",
+  "bugs": "https://github.com/dilidilidi/ring/issues",
   "licenses": [
     {
       "type": "MIT",

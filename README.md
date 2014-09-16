@@ -12,13 +12,25 @@ Download the [production version][min] or the [development version][max].
 In your web page:
 
 ```html
-<script src="jquery.js"></script>
-<script src="dist/ring.min.js"></script>
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ring</title>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <link type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <script src="/src/ring.js"></script>
+</head>
+<body>
+<canvas class="ring"></canvas>
 <script>
-jQuery(function($) {
-  $.awesome(); // "awesome"
-});
+    $(document).ready(function () {
+        $('.ring').ring();
+    });
 </script>
+</body>
+</html>
 ```
 
 ## Documentation
