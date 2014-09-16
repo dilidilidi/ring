@@ -16,17 +16,15 @@ In your web page:
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>ring</title>
+    <title>ring chart</title>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <link type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
-    <script src="/src/ring.js"></script>
+    <script src="/dist/ring.min.js"></script>
 </head>
 <body>
-<canvas class="ring"></canvas>
+<canvas id="ring"></canvas>
 <script>
     $(document).ready(function () {
-        $('.ring').ring();
+        $('#ring').ring();
     });
 </script>
 </body>
