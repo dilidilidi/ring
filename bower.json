@@ -1,9 +1,8 @@
 {
-  "name": "ring",
-  "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "qunit": "~1.12.0",
-    "jquery": "latest"
-  }
+    "name": "ring",
+    "version": "1.0.0",
+    "devDependencies": {
+        "qunit": "~1.12.0",
+        "jquery": "latest"
+    }
 }
