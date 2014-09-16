@@ -15,6 +15,11 @@ var paths = {
 
 var banner = '/*! <%= pkg.name %> v<%= pkg.version %> | Copyright (c) 2014-<%= currentYear %> <%= pkg.author %> | <%= pkg.license %> license | <%= pkg.homepage %> */\n';
 
+gulp.task('test', function () {
+    return gulp.src('./test/ring_test.html')
+        .pipe(qunit());
+});
+
 gulp.task('default', function () {
     return gulp.src(paths.scripts)
         .pipe(uglify())
