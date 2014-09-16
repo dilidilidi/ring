@@ -4,10 +4,9 @@ this is my first jquery plugin ,i wish you like it
 
 ## Getting Started
 
-Download the [production version][min] or the [development version][max].
+Download the [production version][min].
 
-[min]: https://raw.github.com/dilidilidi/jquery-ring/master/dist/jquery.ring.min.js
-[max]: https://raw.github.com/dilidilidi/jquery-ring/master/dist/jquery.ring.js
+[min]: https://raw.github.com/dilidilidi/ring/master/dist/ring.min.js
 
 In your web page:
 
